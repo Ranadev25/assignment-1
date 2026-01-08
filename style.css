@@ -145,6 +145,7 @@ nav ul li a:hover{
   background: rgba(249, 85, 85, 1);
   padding: 10px;
   border-radius: 50%;
+  cursor: pointer;
 }
 .card img:hover{
   background: rgb(164, 33, 4);
@@ -192,3 +193,54 @@ nav ul li a:hover{
   gap:7px;
 }
 /* section solution second brain end */
+
+/* section read to think start*/
+.read h1{
+  color:#001931;
+  font-size: 45px;
+  line-height: 50px;
+  margin: 16px 0;
+}
+.read p{
+  color:#627382;
+}
+/* section read to think end*/
+
+/* footer section start */
+.footer{
+  background: rgba(0, 25, 49, 1);
+  color:white;
+  padding: 120px 120px 30px 120px;
+}
+.footer-content{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(229, 231, 235, 0.158);
+  padding-bottom: 80px;
+}
+.social{
+  font-size: 20px;
+  line-height: 40px;
+}
+.social-icon{
+  color:black;
+  display: flex;
+  gap:10px;
+  padding: 10px;
+}
+.social-icon div{
+  display: inline-block;
+  background: #fff;
+  padding: 0 7px;
+  border-radius: 50%;
+}
+.social-icon div:hover{
+  display: inline-block;
+  background: red;
+  color:#fff;
+  padding: 0 7px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/* footer section end */
