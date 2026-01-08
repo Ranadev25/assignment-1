@@ -1,0 +1,112 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Inter", sans-serif;
+  max-width: 1600px;
+  margin: auto;
+  font-optical-sizing: auto;
+}
+
+ /* header styling start */
+header{
+  position: sticky;
+  top: 0px;
+  background: #fff;
+  opacity: 1;
+}
+nav {
+  display: flex; 
+  justify-content: space-between;
+  margin: 0 120px;
+  align-items: center;
+}
+
+nav ul{
+  display: flex;
+  gap:32px;
+  justify-content: start;
+  align-items: center;
+}
+nav ul li a{
+  display: inline-block;
+  text-decoration: none;
+  color: #000000;
+  transition: .3s ease-in;
+}
+nav ul li a:hover{
+  text-decoration: underline;
+  color: rgba(255, 0, 0, 0.667);
+}
+.my-btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:10px;
+  background:#30B868;
+  padding: 12.5px 16px;
+  border:none;
+  border-radius: 5px;
+  color:white;
+  cursor: pointer;
+}
+.my-btn:hover{
+  background:#258a4fd5;
+}
+.btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:10px;
+  padding: 12.5px 16px;
+  border:1px solid #ddd;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  background: transparent;
+}
+.btn:hover{
+  color:blue;
+}
+ /* header styling end */
+
+/* banner section styling start */
+.banner{
+  background: url("./assets/hero-bg.png");
+  background-size: cover;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  padding: 150px ;
+}
+.banner-content h1,h2{
+  font-size: 70px;
+  line-height: 80px;
+}
+.banner-content h2{
+  color: #30B868;
+}
+.banner-radio-btn{
+  padding: 7px 10px;
+  background: #fff;
+  border-radius: 20px;
+  display: inline-block;
+  margin-bottom: 16px;
+}
+.banner-radio-btn input[type="radio"]{
+  accent-color: #30B868;
+}
+.banner-radio-btn label{
+  color:black;
+}
+.banner-radio-btn input:checked + label{
+  color:#30B868;
+}
+.banner-content p{
+  margin:14px 0 40px 0;
+}
+/* banner section styling end */
+
