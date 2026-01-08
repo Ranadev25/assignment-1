@@ -110,3 +110,52 @@ nav ul li a:hover{
 }
 /* banner section styling end */
 
+/* notes section styling start */
+.notice{
+  padding: 0 120px;
+  text-align: center;
+  background: #dddddd18;
+}
+.notice-title h1{
+  font-size: 45px;
+  padding-top: 60px;
+  color: #001931;
+}
+.notice-title p{
+  font-size:16px ;
+  color: #627382;
+  margin: 16px 0 24px 0;
+}
+.notice-card{
+  display: flex;
+  gap:24px;
+}
+.card{
+  padding: 24px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  border-radius: 10px;
+  margin-top: 30px;
+  box-shadow: 0 5px 5px #dddddd97;
+}
+
+.card img{
+  background: rgba(249, 85, 85, 1);
+  padding: 10px;
+  border-radius: 50%;
+}
+.card img:hover{
+  background: rgb(164, 33, 4);
+}
+.card h3{
+  margin: 16px 0;
+  font-size: 24px;
+  color:#001931;
+}
+.card p{
+  color:#627382
+}
+/* notes section styling end */
