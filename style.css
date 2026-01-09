@@ -11,6 +11,16 @@ body{
   margin: auto;
   font-optical-sizing: auto;
 }
+/* repeated style */
+.section-title{
+  line-height: 80px;
+  font-size: 45px;
+  color: #001931;
+}
+.para{
+  font-size:16px ;
+  color: #627382;
+}
 
  /* header styling start */
 header{
@@ -82,13 +92,6 @@ nav ul li a:hover{
   text-align: center;
   padding: 150px ;
 }
-.banner-content h1,.banner-content h2{
-  font-size: 70px;
-  line-height: 80px;
-}
-.banner-content h2{
-  color: #30B868;
-}
 .banner-radio-btn{
   padding: 7px 10px;
   background: #fff;
@@ -105,37 +108,21 @@ nav ul li a:hover{
 .banner-radio-btn input:checked + label{
   color:#30B868;
 }
-.banner-content p{
-  margin:14px 0 40px 0;
-}
 /* banner section styling end */
 
 /* notes section styling start */
-.notice{
-  padding: 0 120px;
-  text-align: center;
-  background: #dddddd18;
-}
-.notice-title h1{
-  font-size: 45px;
-  padding-top: 60px;
-  color: #001931;
-}
-.notice-title p{
-  font-size:16px ;
-  color: #627382;
-  margin: 16px 0 24px 0;
-}
 .notice-card{
   display: flex;
-  gap:24px;
+  gap: 24px;
+  justify-content: space-between;
+  align-items: center;
 }
 .card{
   padding: 24px;
-  height: 300px;
+  height: 270px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: end;
   background: #fff;
   border-radius: 10px 10px 0 0;
   margin-top: 30px;
@@ -155,17 +142,12 @@ nav ul li a:hover{
   font-size: 24px;
   color:#001931;
 }
-.card p{
-  color:#627382
-}
+
 /* notes section styling end */
 
 
 /* section solution second brain start */
-.second-brain{
-  padding: 120px;
-  background: white;
-}
+
 .brain-content{
   display: flex;
   align-items: center;
@@ -176,16 +158,6 @@ nav ul li a:hover{
   font-size: 16px;
   text-transform: uppercase;
 }
-.brain-info h2{
-  color:#001931;
-  font-size: 45px;
-  line-height: 50px;
-  margin: 16px 0;
-}
-.brain-info p{
-  color:#627382;
-  margin-bottom: 38px;
-}
 .brain-info ul li{
   line-height: 30px;
   display: flex;
@@ -193,18 +165,6 @@ nav ul li a:hover{
   gap:7px;
 }
 /* section solution second brain end */
-
-/* section read to think start*/
-.read h1{
-  color:#001931;
-  font-size: 45px;
-  line-height: 50px;
-  margin: 16px 0;
-}
-.read p{
-  color:#627382;
-}
-/* section read to think end*/
 
 /* footer section start */
 .footer{
